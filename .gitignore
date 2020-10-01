@@ -1,0 +1,22 @@
+# Ignore everything in "wp-content" except these directories. #
+/*
+!.gitignore
+!plugins/
+!themes/
+!uploads/
+!README.md
+
+# Ignore everything in "plugins" except certain plugins. #
+plugins/*
+
+# Ignore everything in "themes" except the active theme. #
+themes/*
+!themes/mindOfLito
+/
+
+# Ignore packages #
+themes/mindOfLito/node_modules/
+
+#Ignore build folder # 
+themes/mindOfLito/build/
+
