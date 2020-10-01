@@ -1,10 +1,11 @@
 /*
-Theme Name: Mind of Lito
-Author: John Saputo
-Description: Video portfolio website
+Theme Name: Inhabitant
+Author: Rob H
+Description: A wicked theme I made.
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: inhabitant
 */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -54,7 +55,16 @@ table {
   border-spacing: 0; }
 
 header {
-  background-color: black; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50px;
+  background-color: #ffffff;
+  color: black;
+  height: 100px; }
 
 body {
   background: white;
