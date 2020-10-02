@@ -1,6 +1,9 @@
 <!-- Header  -->
 <?php get_header(); ?>
 
+<!-- Nav -->
+<?php include ('nav.php');?>
+
 <!-- Hero Section -->
 
 <!-- About Section -->
