@@ -8,6 +8,8 @@
 </head>
 <body <?php body_class();?>>
     <header>
+        <a href="<?php echo get_home_url(); ?>">
         <h1>Carlos Marion</h1>
+        </a>    
     </header>
 
