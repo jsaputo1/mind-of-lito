@@ -55,7 +55,7 @@
 
 <!-- Contact Section -->
 
-<?php include ('contact.php');?>
+<?php include ('page-contact.php');?>
 
 <!-- Footer -->
     
