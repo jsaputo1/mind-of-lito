@@ -11,8 +11,19 @@
 </section>
 
 <!-- About Section -->
-
-<?php include ('page-about.php');?>
+    <?php
+        $args = array( 
+            'post_type' => 'post', 
+            'cat' => '3', 
+            'order' => 'ASC',
+            'numberposts' => 1
+            );
+        $product_posts = get_posts( $args ); 
+    ?>
+    <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
+    <h2><?php the_title(); ?></h2>
+    <?php the_content(); ?>
+    <?php endforeach; wp_reset_postdata(); ?>
 
 <!-- Video Section -->
     <?php
@@ -28,8 +39,6 @@
     <h2><?php the_title(); ?></h2>
     <h3><?php the_permalink();?></h3>
     <?php the_content(); ?>
-    
-    <!-- Loop ends -->
     <?php endforeach; wp_reset_postdata(); ?>
 
 <!-- Contact Section -->
