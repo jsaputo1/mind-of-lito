@@ -83,6 +83,14 @@ header {
   color: black;
   height: 100px; }
 
+footer {
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  color: white; }
+  footer h1 {
+    font-size: 1rem; }
+
 .title {
   text-align: center;
   font-size: 2rem; }
