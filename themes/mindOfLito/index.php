@@ -43,6 +43,8 @@
 
 <!-- Contact Section -->
 
+<?php include ('contact.php');?>
+
 <!-- Footer -->
     
 <?php get_footer();?>
