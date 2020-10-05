@@ -20,3 +20,6 @@ themes/mindOfLito/node_modules/
 #Ignore build folder # 
 themes/mindOfLito/build/
 
+#Ignore css file
+themes/mindOfLito/style.css
+
