@@ -84,8 +84,5 @@ header {
   height: 100px; }
 
 body {
-  background: white;
-  font-size: 2em; }
-
-body {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  font-size: 16px; }
