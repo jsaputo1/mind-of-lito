@@ -54,7 +54,7 @@
 </section>
 
 <!-- Contact Section -->
-
+<h1 class="title">Contact</h1>
 <?php include ('page-contact.php');?>
 
 <!-- Footer -->
