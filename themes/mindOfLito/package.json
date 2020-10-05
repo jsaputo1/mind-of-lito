@@ -1,7 +1,7 @@
 {
-  "name": "inhabitant",
+  "name": "Mind Of Lito",
   "version": "1.1.0",
-  "description": "WordPress setup",
+  "description": "Video Portfolio website",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.0",
