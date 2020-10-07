@@ -4,5 +4,16 @@ header {
   margin-left: 50px;
   background-color: #ffffff;
   color: black;
-  height: 100px;
+  a {
+    text-decoration: none;
+  }
+}
+
+.header-title {
+  h2 {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  padding: 30px 0px;
 }
