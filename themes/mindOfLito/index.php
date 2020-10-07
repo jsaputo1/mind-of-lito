@@ -49,9 +49,9 @@
     ?>
     <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
     <figure>
-        <?php the_post_thumbnail(); ?>
+        <a href="<?php the_permalink();?>"><?php the_post_thumbnail(); ?></a>
         <h2><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h2>
-        <?php the_content(); ?>
+        <p><?php the_excerpt() ?></p>
     </figure>
     <?php endforeach; wp_reset_postdata(); ?>
 </section>
