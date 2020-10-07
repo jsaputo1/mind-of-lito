@@ -6,8 +6,7 @@
 
 <!-- Hero Section -->
 <section class="hero">
-    <h1>Carlos Marion</h1>
-    <h2>Video Editor</h1>
+    <?php dynamic_sidebar ('hero')?>
 </section>
 
 <!-- About Section -->
