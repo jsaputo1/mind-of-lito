@@ -123,6 +123,10 @@ footer {
   .portfolio figure {
     border: 1px solid black; }
 
+.portfolio figure img {
+  width: 200px;
+  height: 200px; }
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
