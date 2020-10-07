@@ -15,6 +15,9 @@ add_action('wp_enqueue_scripts', 'mindOfLito_files');
 function mindOfLito_features() {
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
+    register_nav_menus (array(
+        'nav' => 'Nav',
+    ));
 }
 
 add_action('after_setup_theme', 'mindOfLito_features');
