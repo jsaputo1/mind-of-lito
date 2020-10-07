@@ -22,10 +22,18 @@ add_action('after_setup_theme', 'mindOfLito_features');
 function mindOfLito_widgets () {
 
     register_sidebar(array(
-        'name' => 'About Section',
-        'id' => 'about',
-        'description' => 'About me information',
-        'before_widget' => '<div class="about-section">',
+        'name' => 'Header Title',
+        'id' => 'header',
+        'description' => 'Header information',
+        'before_widget' => '<div class="header-title">',
+        'after_widget' => '</div>',
+    ));
+
+    register_sidebar(array(
+        'name' => 'Footer Text',
+        'id' => 'footer',
+        'description' => 'Footer information',
+        'before_widget' => '<div class="footer-text">',
         'after_widget' => '</div>',
     ));
 }
