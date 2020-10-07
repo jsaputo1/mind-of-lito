@@ -2,7 +2,11 @@
 <?php get_header(); ?>
 
 <!-- Nav -->
-<?php include ('nav.php');?>
+<nav>
+    <?php wp_nav_menu(array(
+        'theme_location' => 'nav'
+        )) ;?> 
+</nav>
 
 <!-- Hero Section -->
 <section class="hero">
