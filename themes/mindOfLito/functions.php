@@ -36,6 +36,15 @@ function mindOfLito_widgets () {
         'before_widget' => '<div class="footer-text">',
         'after_widget' => '</div>',
     ));
+    
+        register_sidebar(array(
+        'name' => 'Hero Text',
+        'id' => 'hero',
+        'description' => 'Hero Section',
+        'before_widget' => '<div class="hero-text">',
+        'after_widget' => '</div>',
+    ));
+
 }
 
 add_action ('widgets_init', 'mindOfLito_widgets') ;
