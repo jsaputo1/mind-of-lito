@@ -197,14 +197,19 @@ footer {
     color: black;
     background-color: white; }
 
+.gallery {
+  background-color: black;
+  color: white;
+  padding-top: 25px; }
+
 .gallery-posts {
   margin-top: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
 
@@ -222,13 +227,19 @@ footer {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border: 1px solid black;
-  width: 350px; }
-  .card-container figure img {
-    height: 100%;
-    width: 100%;
-    -o-object-fit: contain;
-       object-fit: contain; }
+  border: 1px solid silver;
+  width: 350px;
+  margin: 20px; }
+  .card-container figure {
+    padding: 15px; }
+    .card-container figure img {
+      border: 1px solid white;
+      height: 100%;
+      width: 100%;
+      -o-object-fit: contain;
+         object-fit: contain; }
+      .card-container figure img:hover {
+        opacity: 0.8; }
 
 .gallery-card-text {
   display: -webkit-box;
@@ -244,7 +255,17 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 30px; }
+  padding: 0 10px 30px 10px; }
+  .gallery-card-text a {
+    color: white;
+    text-decoration: none; }
+    .gallery-card-text a:hover {
+      color: silver; }
+  .gallery-card-text p {
+    padding-top: 10px;
+    font-weight: 300;
+    word-spacing: 4px;
+    letter-spacing: 1px; }
 
 body {
   background-color: #ffffff;

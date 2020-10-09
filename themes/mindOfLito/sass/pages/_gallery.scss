@@ -1,10 +1,13 @@
 .gallery {
+  background-color: black;
+  color: white;
+  padding-top: 25px;
 }
 
 .gallery-posts {
   margin-top: 25px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -13,13 +16,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  border: 1px solid black;
+  border: 1px solid silver;
   width: 350px;
+  margin: 20px;
   figure {
+    padding: 15px;
     img {
+      border: 1px solid white;
       height: 100%;
       width: 100%;
       object-fit: contain;
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 }
@@ -29,9 +38,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 30px;
-  h2 {
+  padding: 0 10px 30px 10px;
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: silver;
+    }
   }
   p {
+    padding-top: 10px;
+    font-weight: 300;
+    word-spacing: 4px;
+    letter-spacing: 1px;
   }
 }
