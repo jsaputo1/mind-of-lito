@@ -1,15 +1,14 @@
-<section class="contact">
-  <form>
-      <label for="name">Name</label>
-      <textarea name="name" name="firstname"></textarea>
-      <label for="email">Email</label>
-      <textarea name="email"></textarea>
-      <label for="subject">Subject</label>
-      <textarea name="subject"></textarea>
-      <label for="message">Message</label>
-      <textarea name="message"></textarea>
+  <section class="contact">
+    <?php dynamic_sidebar ('contact')?>
+    <form>
+      <div class="name-email">
+        <textarea name="name" name="firstname" placeholder="Name"></textarea>
+        <textarea name="email" placeholder="Email"></textarea>
+      </div>
+      <textarea name="subject" placeholder="Subject" id="subject"></textarea>
+      <textarea name="message" placeholder="Message" id="message"></textarea>
       <div class="form-button">
-        <input type="submit" value="Send" />
+        <input type="submit" value="Send" id="contact-button" />
       </div>  
-  </form>
+    </form>
 </section>
