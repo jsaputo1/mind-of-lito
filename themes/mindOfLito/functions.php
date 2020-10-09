@@ -48,6 +48,16 @@ function mindOfLito_widgets () {
         'after_widget' => '</div>',
     ));
 
+    register_sidebar(array(
+        'name' => 'Contact Text',
+        'id' => 'contact',
+        'description' => 'Contact Section',
+        'before_title' => '<h1>',
+        'after_title' => '</h1>',
+        'before_widget' => '<div class="contact-text">',
+        'after_widget' => '</div>',W
+    ));
+
 }
 
 add_action ('widgets_init', 'mindOfLito_widgets') ;
