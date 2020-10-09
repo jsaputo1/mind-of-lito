@@ -1,13 +1,37 @@
 .gallery {
+}
+
+.gallery-posts {
   margin-top: 25px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid black;
+  width: 350px;
   figure {
-    border: 1px solid black;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
   }
-  img {
-    width: 200px;
-    height: 200px;
+}
+
+.gallery-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  h2 {
+  }
+  p {
   }
 }
