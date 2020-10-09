@@ -12,4 +12,10 @@
             <?php dynamic_sidebar ('header')?>
         </a>    
     </header>
+    <!-- Nav -->
+    <nav>
+        <?php wp_nav_menu(array(
+            'theme_location' => 'nav'
+        )) ;?> 
+    </nav>
 
