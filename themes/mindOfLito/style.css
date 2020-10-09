@@ -133,14 +133,27 @@ footer {
     font-size: 2rem;
     padding-bottom: 100px; }
 
-.contact form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+.contact {
+  background-color: black;
+  color: white; }
+  .contact form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .contact textarea {
+    background: transparent;
+    color: silver;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid white;
+    width: 100%; }
 
 .form-button {
   display: -webkit-box;
@@ -149,6 +162,40 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+.contact-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 15px; }
+  .contact-text h1 {
+    font-size: 3rem; }
+  .contact-text p {
+    font-size: 1rem; }
+
+.name-email {
+  width: 100%; }
+  .name-email textarea {
+    width: 49%; }
+
+#contact-button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  margin-top: 15px;
+  font-size: 1rem;
+  padding: 15px 20px;
+  cursor: pointer; }
+  #contact-button:hover {
+    color: black;
+    background-color: white; }
 
 .gallery {
   margin-top: 25px;
