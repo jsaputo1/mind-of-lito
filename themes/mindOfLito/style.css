@@ -112,21 +112,6 @@ footer {
   .hero p {
     font-size: 1.5rem; }
 
-.portfolio {
-  margin-top: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .portfolio figure {
-    border: 1px solid black; }
-
-.portfolio figure img {
-  width: 200px;
-  height: 200px; }
-
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -164,6 +149,20 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+.gallery {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .gallery figure {
+    border: 1px solid black; }
+  .gallery img {
+    width: 200px;
+    height: 200px; }
 
 body {
   background-color: #ffffff;
