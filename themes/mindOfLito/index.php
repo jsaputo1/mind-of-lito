@@ -7,7 +7,7 @@
 </section>
 
 <!-- About Section -->
-<section class="about">
+<section class="about" id="about">
     <?php
         $args = array( 
             'post_type' => 'post', 
@@ -29,7 +29,9 @@
 </section>
 
 <!-- Contact Section -->
-<?php include ('page-contact.php');?>
+<div id="contact">
+    <?php include ('page-contact.php');?>
+</div>
 
 <!-- Footer -->
     
