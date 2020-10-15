@@ -28,11 +28,6 @@
     <?php endforeach; wp_reset_postdata(); ?>
 </section>
 
-<!-- Contact Section -->
-<div id="contact">
-    <?php include ('page-contact.php');?>
-</div>
-
 <!-- Footer -->
     
 <?php get_footer();?>
