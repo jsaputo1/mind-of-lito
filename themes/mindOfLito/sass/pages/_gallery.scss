@@ -53,3 +53,15 @@
     letter-spacing: 1px;
   }
 }
+
+.single-post {
+  height: 100vh;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 25px;
+}
