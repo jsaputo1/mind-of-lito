@@ -1,5 +1,7 @@
 jQuery(document).ready(function ($) {
 
+  $(".gallery-card-text").hide()
+
   $(".card-container").mouseenter(function () {
     $(this).find(".gallery-card-text").show();
     $(this).find(".card-image").hide();
