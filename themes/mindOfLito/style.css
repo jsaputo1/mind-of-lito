@@ -202,6 +202,14 @@ footer {
   color: white;
   padding-top: 25px; }
 
+.embedded-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
 .gallery-posts {
   margin-top: 25px;
   display: -webkit-box;
