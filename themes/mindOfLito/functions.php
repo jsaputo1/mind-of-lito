@@ -62,4 +62,33 @@ function mindOfLito_widgets () {
 
 add_action ('widgets_init', 'mindOfLito_widgets') ;
 
+
+add_filter( 'rwmb_meta_boxes', 'register_meta_boxes' );
+
+function register_meta_boxes( $meta_boxes ) {
+    $prefix = '_';
+
+    $meta_boxes[] = [
+        'title'      => esc_html__( 'Video Information' ),
+        'id'         => 'video-link',
+        'post_types' => ['post'],
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'fields'     => [
+            [
+                'type' => 'url',
+                'id'   => $prefix . 'video-link',
+                'name' => esc_html__( 'Video Link' ),
+            ],
+            [
+                'type' => 'textarea',
+                'id'   => $prefix . 'description',
+                'name' => esc_html__( 'Description' ),
+            ],
+        ],
+    ];
+
+    return $meta_boxes;
+}
+
 ?>
