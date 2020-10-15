@@ -13,12 +13,16 @@
         ?>
         <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
         <div class="card-container">
-            <figure>
-                <a href="<?php the_permalink();?>"><?php the_post_thumbnail(); ?></a>
-            </figure>
-            <div class="gallery-card-text">
-                <h2><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h2>
-                <p><?php the_excerpt() ?></p>
+            <div class="card-image">
+                <figure>
+                    <a href="<?php the_permalink();?>"><?php the_post_thumbnail(); ?></a>
+                </figure>
+            </div>
+            <div class="card-hover-text">
+                <div class="gallery-card-text">
+                    <h2><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h2>
+                    <p><?php the_excerpt() ?></p>
+                </div>
             </div>
         </div>
         <?php endforeach; wp_reset_postdata(); ?>
