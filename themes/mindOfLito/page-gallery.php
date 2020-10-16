@@ -17,20 +17,19 @@
             $product_posts = get_posts( $args ); 
         ?>
         <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
-        <div class="card-container">
-            <div class="card-image">
-                <?php echo ( get_post_meta( get_the_ID(), '_video-link', true ) ); ?>
-                <figure>
-                    <a href="<?php the_permalink();?>"><?php the_post_thumbnail(); ?></a>
-                </figure>
-            </div>
-            <div class="card-hover-text">
-                <div class="gallery-card-text">
-                    <h2 data-link="<?php echo ( get_post_meta( get_the_ID(), '_video-link', true ) ); ?>" 
-                    class="video-link"><?php the_title(); ?></h2>
+        <div 
+        class="card-container video-link" 
+        data-link="<?php echo ( get_post_meta( get_the_ID(), '_video-link', true ) ); ?>" 
+        >
+            <figure>
+                <p class="gallery-card-text">
                     <?php echo ( get_post_meta( get_the_ID(), '_description', true ) ); ?>
-                </div>
-            </div>
+                </p>
+                <?php the_post_thumbnail(); ?></a>
+            </figure>
+            <h2>
+                <?php the_title(); ?>
+            </h2>
         </div>
         <?php endforeach; wp_reset_postdata(); ?>
     </div>
