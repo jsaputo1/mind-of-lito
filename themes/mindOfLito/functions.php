@@ -6,7 +6,9 @@ function mindOfLito_files() {
     wp_enqueue_style('fonts', "https://fonts.googleapis.com/css?family=Lato&display=swap");
     wp_enqueue_script('load-fa', 'https://kit.fontawesome.com/e785bdc78c.js');
     wp_enqueue_script('jquery');
-    wp_enqueue_script('main-js', get_template_directory_uri() . '/build/js/main.min.js');  
+    wp_enqueue_script('main-js', get_template_directory_uri() . '/js/main.js');  
+
+    // wp_enqueue_script('main-js', get_template_directory_uri() . '/build/js/main.min.js');  
 }
 
 add_action('wp_enqueue_scripts', 'mindOfLito_files');
