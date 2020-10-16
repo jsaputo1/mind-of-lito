@@ -26,7 +26,7 @@
             </div>
             <div class="card-hover-text">
                 <div class="gallery-card-text">
-                    <h2 data-link="<?php echo ( get_post_meta( get_the_ID(), 'video-link', true ) ); ?>" 
+                    <h2 data-link="<?php echo ( get_post_meta( get_the_ID(), '_video-link', true ) ); ?>" 
                     class="video-link"><?php the_title(); ?></h2>
                     <?php echo ( get_post_meta( get_the_ID(), '_description', true ) ); ?>
                 </div>
