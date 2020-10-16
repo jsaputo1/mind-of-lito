@@ -2,7 +2,7 @@
 <section class="gallery">
     <h1 class="title">Gallery</h1>
     <div class="embedded-video">
-        <iframe width="420" height="315"
+        <iframe width="900" height="450"
         src="https://www.youtube.com/embed/tgbNymZ7vqY" id="big-video">
         </iframe> 
     </div>
