@@ -8,14 +8,14 @@
 </head>
 <body <?php body_class();?>>
     <header>
-        <a href="<?php echo get_home_url(); ?>">
-            <?php dynamic_sidebar ('header')?>
-        </a>    
-    </header>
-    <!-- Nav -->
+    <div class="header-logo">
+        <?php dynamic_sidebar ('header')?>
+    </div>
     <nav>
-        <?php wp_nav_menu(array(
-            'theme_location' => 'nav'
+    <?php wp_nav_menu(array(
+        'theme_location' => 'nav'
         )) ;?> 
     </nav>
+    </header>
+
 
