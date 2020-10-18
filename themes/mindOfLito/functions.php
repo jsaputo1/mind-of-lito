@@ -43,10 +43,10 @@ function mindOfLito_widgets () {
     ));
     
         register_sidebar(array(
-        'name' => 'Hero Text',
+        'name' => 'Front Page Video',
         'id' => 'hero',
-        'description' => 'Hero Section',
-        'before_widget' => '<div class="hero-text">',
+        'description' => 'Front Page Video',
+        'before_widget' => '<div class="hero-video">',
         'after_widget' => '</div>',
     ));
 
