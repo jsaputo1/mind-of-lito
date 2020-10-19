@@ -8,14 +8,16 @@
 </head>
 <body <?php body_class();?>>
     <header>
-    <div class="header-logo">
-        <?php dynamic_sidebar ('header')?>
-    </div>
-    <nav>
-    <?php wp_nav_menu(array(
-        'theme_location' => 'nav'
-        )) ;?> 
-    </nav>
+        <div class="header-container">
+            <div class="header-logo">
+                <?php dynamic_sidebar ('header')?>
+            </div>
+            <nav>
+            <?php wp_nav_menu(array(
+                'theme_location' => 'nav'
+                )) ;?> 
+            </nav>
+        </div>
     </header>
 
 
