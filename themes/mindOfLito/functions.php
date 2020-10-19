@@ -41,14 +41,14 @@ function mindOfLito_widgets () {
         'before_widget' => '<div class="footer-text">',
         'after_widget' => '</div>',
     ));
-    
-        register_sidebar(array(
+
+    register_sidebar(array(
         'name' => 'Front Page Video',
-        'id' => 'hero',
+        'id' => 'video',
         'description' => 'Front Page Video',
-        'before_widget' => '<div class="hero-video">',
+        'before_widget' => '<div class="front-page-video">',
         'after_widget' => '</div>',
-    ));
+    ));  
 
     register_sidebar(array(
         'name' => 'Contact Text',
