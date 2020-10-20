@@ -73,17 +73,8 @@ nav {
         color: silver; }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0px 50px;
-  color: black; }
+  background-color: black;
+  margin-bottom: 50px; }
   header a {
     text-decoration: none; }
 
@@ -93,6 +84,19 @@ header {
     color: white;
     font-size: 1.3rem;
     font-weight: 400; }
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  margin: 0 auto; }
 
 footer {
   padding: 50px;
@@ -106,18 +110,21 @@ footer {
   text-align: center;
   font-size: 2rem; }
 
-.hero {
-  background-color: beige;
-  padding: 150px 20px; }
-  .hero h2 {
-    font-size: 5rem; }
-  .hero p {
-    font-size: 1.5rem; }
+.front-page-video {
+  padding: 20px 20px; }
+
+.main-container {
+  max-width: 1175px;
+  margin: 0 auto; }
 
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  background-color: beige;
+  padding: 100px 0px; }
+  .about img {
+    padding-right: 50px; }
 
 .about-text {
   display: -webkit-box;
@@ -129,11 +136,31 @@ footer {
           flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  padding: 0 50px; }
-  .about-text h2 {
-    font-size: 2rem;
-    padding-bottom: 100px; }
+          align-items: center; }
+  .about-text h3 {
+    padding: 0px 75px; }
+
+.about-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 80px; }
+  .about-title h2 {
+    font-size: 4rem; }
+  .about-title h4 {
+    font-size: 0.9rem;
+    padding-right: 30px; }
+    .about-title h4 p {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
 
 .contact {
   background-color: black;
