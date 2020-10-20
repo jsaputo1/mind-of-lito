@@ -21,7 +21,10 @@
         ?>
         <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
         <div class="about-text">
-            <h2><?php the_title(); ?></h2>
+            <div class="about-title">
+                <h2><?php the_title(); ?></h2>
+                <h4><?php the_excerpt(); ?></h4>
+            </div>
             <h3><?php the_content(); ?></h3>
         </div>
         <div class="about-photo">
