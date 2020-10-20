@@ -21,15 +21,12 @@
         class="card-container video-link" 
         data-link="<?php echo ( get_post_meta( get_the_ID(), '_video-link', true ) ); ?>" 
         >
-            <figure>
-                <p class="gallery-card-text">
-                    <?php echo ( get_post_meta( get_the_ID(), '_description', true ) ); ?>
-                </p>
-                <?php the_post_thumbnail(); ?></a>
-            </figure>
-            <h2>
-                <?php the_title(); ?>
-            </h2>
+        <figure class="gallery-image">
+            <?php the_post_thumbnail(); ?>
+            <p class="gallery-image-text">
+                <?php echo ( get_post_meta( get_the_ID(), '_description', true ) ); ?>
+            </p>
+        </figure>
         </div>
         <?php endforeach; wp_reset_postdata(); ?>
     </div>
