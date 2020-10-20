@@ -1,14 +1,38 @@
 .about {
   display: flex;
+  background-color: beige;
+  padding: 100px 0px;
+  img {
+    padding-right: 50px;
+  }
 }
 
 .about-text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 50px;
-  h2 {
-    font-size: 2rem;
-    padding-bottom: 100px;
+
+  h3 {
+    padding: 0px 75px;
   }
+
+}
+
+.about-title {
+  display: flex;
+  flex-direction: column;
+  h2 {
+    font-size: 4rem;
+  }
+  h4 {
+    font-size: 0.9rem;
+    padding-right: 30px;
+    p {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+ 
+  }
+  padding-bottom: 80px;
 }
