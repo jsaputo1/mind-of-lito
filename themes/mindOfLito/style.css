@@ -98,12 +98,29 @@ header {
   margin: 0 auto; }
 
 footer {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0 auto;
   padding: 50px;
   text-align: center;
   background-color: black;
   color: white; }
   footer h1 {
     font-size: 1rem; }
+
+.footer-text {
+  padding-right: 10px; }
+
+.footer-icons a {
+  color: white;
+  text-decoration: none; }
+  .footer-icons a:hover {
+    color: silver; }
 
 .title {
   text-align: center;

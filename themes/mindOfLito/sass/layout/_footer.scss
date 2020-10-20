@@ -1,9 +1,27 @@
 footer {
+  max-width: 1200px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
   padding: 50px;
   text-align: center;
   background-color: black;
   color: white;
   h1 {
     font-size: 1rem;
+  }
+}
+
+.footer-text {
+  padding-right: 10px;
+}
+
+.footer-icons {
+  a {
+    color: white;
+    &:hover {
+      color: silver;
+    }
+    text-decoration: none;
   }
 }
