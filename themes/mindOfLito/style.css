@@ -248,6 +248,10 @@ footer {
   padding-top: 25px;
   max-width: 1150px;
   margin: 0 auto; }
+  .gallery h1 {
+    font-weight: 600;
+    font-size: 5rem;
+    margin-bottom: 50px; }
 
 .embedded-video {
   display: -webkit-box;
@@ -279,26 +283,21 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 325px;
-  padding: 0px 20px;
+  padding: 0px 5px;
   cursor: pointer; }
-  .card-container figure p {
-    position: absolute;
-    z-index: 1;
-    width: 325px;
-    padding-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px; }
-  .card-container figure img {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    -o-object-fit: contain;
-       object-fit: contain; }
-    .card-container figure img:hover {
-      opacity: 0.5; }
-  .card-container h2 {
-    margin: 30px 0px; }
+
+.gallery-image {
+  position: relative; }
+  .gallery-image img {
+    height: 150px;
+    width: 225px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.gallery-image-text {
+  position: absolute;
+  top: 0px;
+  margin: 10px; }
 
 body {
   background-color: black;
