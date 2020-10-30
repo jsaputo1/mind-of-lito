@@ -1,34 +1,9 @@
 .contact {
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  label,
-  textarea {
-    border: none;
-    font-family: 'Open Sans', sans-serif;
-    width: 100%;
-  }
+
+textarea {
+  font-family: inherit;
+  font-size: 2rem;
 }
-
-.form-button {
-  display: flex;
-  justify-content: center;
-}
-
-.contact-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px 15px;
-
-  h1 {
-    font-size: 3rem;
-  }
-  p {
-    font-size: 1rem;
-  }
 }
 
 .name-email {
@@ -38,12 +13,8 @@
   }
 }
 
-.wpcf7-submit {
-  background-color: transparent;
-  color: white;
-  border: 1px solid white;
-  margin-top: 15px;
-  font-size: 1rem;
-  padding: 15px 20px;
-  cursor: pointer;
+.contact-field {
+  border: none;
 }
+
+
