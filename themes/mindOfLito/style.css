@@ -178,27 +178,23 @@ footer {
           -ms-flex-pack: end;
               justify-content: flex-end; }
 
-.contact {
-  background-color: black;
-  color: white; }
-  .contact form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  .contact textarea {
-    background: transparent;
-    color: silver;
-    border: none;
-    font-family: 'Open Sans', sans-serif;
-    border-bottom: 1px solid white;
-    width: 100%; }
+.contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.contact label,
+.contact textarea {
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%; }
 
 .form-button {
   display: -webkit-box;
@@ -226,11 +222,13 @@ footer {
     font-size: 1rem; }
 
 .name-email {
-  width: 100%; }
-  .name-email textarea {
-    width: 49%; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .name-email label {
+    width: 50%; }
 
-#contact-button {
+.wpcf7-submit {
   background-color: transparent;
   color: white;
   border: 1px solid white;
@@ -238,9 +236,6 @@ footer {
   font-size: 1rem;
   padding: 15px 20px;
   cursor: pointer; }
-  #contact-button:hover {
-    color: black;
-    background-color: white; }
 
 .gallery {
   background-color: black;
@@ -300,6 +295,6 @@ footer {
   margin: 10px; }
 
 body {
-  background-color: black;
+  background-color: white;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif; }

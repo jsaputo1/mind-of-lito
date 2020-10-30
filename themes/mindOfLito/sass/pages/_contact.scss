@@ -1,17 +1,13 @@
 .contact {
-  background-color: black;
-  color: white;
   form {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  label,
   textarea {
-    background: transparent;
-    color: silver;
     border: none;
     font-family: 'Open Sans', sans-serif;
-    border-bottom: 1px solid white;
     width: 100%;
   }
 }
@@ -36,13 +32,13 @@
 }
 
 .name-email {
-  width: 100%;
-  textarea {
-    width: 49%;
+  display: flex;
+  label {
+    width: 50%;
   }
 }
 
-#contact-button {
+.wpcf7-submit {
   background-color: transparent;
   color: white;
   border: 1px solid white;
@@ -50,10 +46,4 @@
   font-size: 1rem;
   padding: 15px 20px;
   cursor: pointer;
-
-  &:hover {
-    color: black;
-    background-color: white;
-  }
-
 }
