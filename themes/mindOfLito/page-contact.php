@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 
 <section class="contact">
-  <h3><?php the_content(); ?></h3>
+  <div class="flex-container-column">
+    <h3><?php the_content(); ?></h3>
+  </div>
 </section>
 
     
