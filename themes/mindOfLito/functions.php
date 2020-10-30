@@ -57,7 +57,7 @@ function mindOfLito_widgets () {
         'before_title' => '<h1>',
         'after_title' => '</h1>',
         'before_widget' => '<div class="contact-text">',
-        'after_widget' => '</div>',W
+        'after_widget' => '</div>'
     ));
 
 }
