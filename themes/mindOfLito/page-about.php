@@ -7,8 +7,8 @@
    <section class="about">
       <div class="about-text">
           <div class="about-title">
-              <h2><?php the_field('about_title'); ?></h2>
-              <h4><?php the_field('about_name'); ?></h4>
+              <h2><?php the_field('about_name'); ?></h2>
+              <h4><?php the_field('about_title'); ?></h4>
           </div>
           <h3><?php the_field('about_paragraph'); ?></h3>
       </div>
