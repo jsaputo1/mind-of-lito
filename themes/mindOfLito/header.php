@@ -10,7 +10,9 @@
     <header>
         <div class="header-container">
             <div class="header-logo">
-                <?php dynamic_sidebar ('header')?>
+                <a href="<?php echo get_home_url(); ?>">
+                    <?php dynamic_sidebar ('header')?>
+                </a>
             </div>
             <nav>
             <?php wp_nav_menu(array(
