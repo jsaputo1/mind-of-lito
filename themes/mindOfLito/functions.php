@@ -41,25 +41,6 @@ function mindOfLito_widgets () {
         'before_widget' => '<div class="footer-text">',
         'after_widget' => '</div>',
     ));
-
-    register_sidebar(array(
-        'name' => 'Front Page Video',
-        'id' => 'video',
-        'description' => 'Front Page Video',
-        'before_widget' => '<div class="front-page-video">',
-        'after_widget' => '</div>',
-    ));  
-
-    register_sidebar(array(
-        'name' => 'Contact Text',
-        'id' => 'contact',
-        'description' => 'Contact Section',
-        'before_title' => '<h1>',
-        'after_title' => '</h1>',
-        'before_widget' => '<div class="contact-text">',
-        'after_widget' => '</div>'
-    ));
-
 }
 
 add_action ('widgets_init', 'mindOfLito_widgets') ;
