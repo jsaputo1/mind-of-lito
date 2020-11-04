@@ -143,7 +143,9 @@ header {
   display: -ms-flexbox;
   display: flex;
   background-color: beige;
-  padding: 100px 0px; }
+  padding: 100px 0px;
+  -webkit-box-shadow: 5px 10px;
+          box-shadow: 5px 10px; }
   .about img {
     padding-right: 50px; }
 
