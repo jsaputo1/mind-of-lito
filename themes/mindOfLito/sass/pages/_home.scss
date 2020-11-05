@@ -5,9 +5,8 @@
 
 .front-page-video {
   padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.main-container {
-  max-width: 1175px;
-  margin: 0 auto;
-}

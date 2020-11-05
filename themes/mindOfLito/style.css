@@ -132,11 +132,16 @@ header {
   font-size: 2rem; }
 
 .front-page-video {
-  padding: 20px 20px; }
-
-.main-container {
-  max-width: 1175px;
-  margin: 0 auto; }
+  padding: 20px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .about {
   display: -webkit-box;
@@ -280,3 +285,7 @@ body {
 #content-wrap {
   padding-bottom: 2.5rem;
   /* Footer height */ }
+
+.main-container {
+  max-width: 1175px;
+  margin: 0 auto; }
