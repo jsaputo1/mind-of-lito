@@ -2,8 +2,6 @@
   background-color: black;
   color: white;
   padding-top: 25px;
-  max-width: 1150px;
-  margin: 0 auto;
   h1 {
     font-weight: 600;
     font-size: 5rem;
@@ -21,7 +19,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .card-container {
@@ -46,4 +43,6 @@
   position: absolute;
   top: 0px;
   margin: 10px;
+  height: 130px;
+  overflow: auto;
 }

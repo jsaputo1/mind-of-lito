@@ -210,9 +210,7 @@ header {
 .gallery {
   background-color: black;
   color: white;
-  padding-top: 25px;
-  max-width: 1150px;
-  margin: 0 auto; }
+  padding-top: 25px; }
   .gallery h1 {
     font-weight: 600;
     font-size: 5rem;
@@ -262,7 +260,9 @@ header {
 .gallery-image-text {
   position: absolute;
   top: 0px;
-  margin: 10px; }
+  margin: 10px;
+  height: 130px;
+  overflow: auto; }
 
 body {
   background-color: white;
