@@ -12,6 +12,9 @@
 .embedded-video {
   display: flex;
   justify-content: center;
+  video {
+    width: 950px;
+  }
 }
 
 .gallery-posts {

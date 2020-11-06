@@ -223,6 +223,8 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  .embedded-video video {
+    width: 950px; }
 
 .gallery-posts {
   margin-top: 25px;
