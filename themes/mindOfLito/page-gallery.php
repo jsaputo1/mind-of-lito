@@ -8,7 +8,7 @@
         <h2 id="big-video-title">Video Title</h2>
         <div class="video-description-text">
             <img src="http://localhost:8888/mindOfLito/wp-content/uploads/2020/09/gettyimages-492684094-1536x1024.jpg" id="video-description-thumbnail">
-            <h3 id="video-description">Rhoncus mattis rhoncus urna neque. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Nec feugiat in
+            <h3 id="video-description"> Description Rhoncus mattis rhoncus urna neque. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Nec feugiat in
             fermentum posuere urna nec tincidunt. Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Turpis 
             tincidunt</h3>
         </div>
@@ -28,13 +28,15 @@
                 <div 
                 class="card-container video-link" 
                 data-link="<?php echo $video['src']; ?>" 
-                >
-                <figure class="gallery-image">
-                    <?php the_post_thumbnail(); ?>
-                    <p class="gallery-image-text">
-                        <?php echo ( get_post_meta( get_the_ID(), '_description', true ) ); ?>
-                    </p>
-                </figure>
+                title="<?php the_title(); ?>"
+                description="<?php echo ( get_post_meta( get_the_ID(), '_description', true ) ); ?>"
+                thumbnail-link="<?php the_post_thumbnail(); ?>
+                    <figure class="gallery-image">
+                        <?php the_post_thumbnail(); ?>
+                        <p class="gallery-image-text">
+                            <?php echo ( get_post_meta( get_the_ID(), '_description', true ) ); ?>
+                        </p>
+                    </figure>
                 </div>
         <?php endforeach; wp_reset_postdata(); ?>
     </div>
