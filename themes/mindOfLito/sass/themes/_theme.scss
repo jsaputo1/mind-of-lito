@@ -14,3 +14,18 @@ body {
   max-width: 1175px;
   margin: 0 auto;
 }
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+//Keeps footer at the bottom of the page
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
