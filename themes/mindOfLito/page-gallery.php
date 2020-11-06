@@ -1,10 +1,8 @@
 <?php get_header(); ?>
 <section class="gallery">
-    <h1 class="title">Gallery</h1>
+    <h1 class="title"><?php the_field('gallery_title'); ?></h1>
     <div class="embedded-video">
-        <iframe width="900" height="450"
-        src="https://www.youtube.com/embed/tgbNymZ7vqY" id="big-video">
-        </iframe> 
+        <video src="<?php the_field('gallery_main_video'); ?>" id="big-video" controls></video>
     </div>
     <div class="gallery-posts">
         <?php
