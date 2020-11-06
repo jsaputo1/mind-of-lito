@@ -17,11 +17,34 @@
   }
 }
 
+.video-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.video-description-text {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    width: 100px;
+    border-radius: 50px;
+  }
+
+  h3 {
+    padding: 0px 50px;
+  }
+}
+
 .gallery-posts {
   margin-top: 25px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  width: 1000px;
 }
 
 .card-container {
