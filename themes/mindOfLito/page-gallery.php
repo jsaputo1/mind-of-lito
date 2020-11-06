@@ -4,6 +4,14 @@
     <div class="embedded-video">
         <video src="<?php the_field('gallery_main_video'); ?>" id="big-video" controls></video>
     </div>
+    <div class="video-description">
+        <h2 id="big-video-title">Video Title</h2>
+        <div class="video-description-text">
+            <img src="http://localhost:8888/mindOfLito/wp-content/uploads/2020/09/gettyimages-492684094-1536x1024.jpg" id="video-description-thumbnail">
+            <h3 id="video-description">Rhoncus mattis rhoncus urna neque. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Nec feugiat in
+            fermentum posuere urna nec tincidunt. Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Turpis 
+            tincidunt</h3>
+        </div>
     <div class="gallery-posts">
         <?php
             $args = array( 
