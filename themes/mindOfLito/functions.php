@@ -59,9 +59,11 @@ function register_meta_boxes( $meta_boxes ) {
         'priority'   => 'high',
         'fields'     => [
             [
-                'type' => 'url',
+                'type' => 'video',
                 'id'   => $prefix . 'video-link',
+                'max_file_uploads' => 1,
                 'name' => esc_html__( 'Video Link' ),
+                'max_status'       => false,
             ],
             [
                 'type' => 'textarea',
