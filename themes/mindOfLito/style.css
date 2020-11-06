@@ -142,15 +142,18 @@ header {
       -ms-flex-align: center;
           align-items: center; }
 
-.about {
+.about-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background-color: beige;
+  margin-top: 100px;
   padding: 100px 0px;
   -webkit-box-shadow: 5px 10px;
-          box-shadow: 5px 10px; }
-  .about img {
+          box-shadow: 5px 10px;
+  border: 1px solid black;
+  width: 1000px; }
+  .about-box img {
     padding-right: 50px; }
 
 .about-text {
@@ -175,12 +178,13 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-bottom: 80px; }
+  padding-bottom: 50px; }
   .about-title h2 {
     font-size: 4rem; }
   .about-title h4 {
     font-size: 0.9rem;
-    padding-right: 30px; }
+    padding-top: 5px;
+    padding-left: 10px; }
     .about-title h4 p {
       display: -webkit-box;
       display: -ms-flexbox;
