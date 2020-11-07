@@ -305,10 +305,19 @@ header {
 
 .gallery-image-text {
   position: absolute;
-  top: 0px;
-  margin: 10px;
-  height: 130px;
-  overflow: auto; }
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+  .gallery-image-text p {
+    position: absolute;
+    top: -35px;
+    left: -65px; }
+  .gallery-image-text i {
+    color: white;
+    font-size: 3.7rem; }
+    .gallery-image-text i:hover {
+      color: silver; }
 
 body {
   background-color: white;
