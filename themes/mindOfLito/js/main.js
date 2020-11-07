@@ -14,7 +14,8 @@ jQuery(document).ready(function ($) {
     $(this).find(".gallery-image img").css("opacity", "1");
   });
 
-  $('.video-link').click(function () {
+  $('.video-link').click(function (event) {
+    event.preventDefault();
     let newLink = $(this).attr('data-link');
     let newTitle = $(this).attr('title');
     let newDescription = $(this).attr("description");
