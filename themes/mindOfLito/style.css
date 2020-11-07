@@ -253,7 +253,11 @@ header {
       -ms-flex-align: center;
           align-items: center;
   height: 80px;
-  width: 900px; }
+  width: 900px;
+  margin: 30px 0px; }
+
+#big-video-title {
+  margin-bottom: 10px; }
 
 .video-description-text {
   display: -webkit-box;
@@ -268,7 +272,8 @@ header {
   .video-description-text h3 {
     padding: 0px 50px;
     height: 80px;
-    width: 500px; }
+    width: 500px;
+    font-size: 0.9rem; }
 
 .gallery-posts {
   margin-top: 25px;
