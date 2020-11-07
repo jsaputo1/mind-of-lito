@@ -34,9 +34,10 @@
                 thumbnail-link="<?php the_post_thumbnail_url()  ?>">
                     <figure class="gallery-image">
                         <?php the_post_thumbnail(); ?>
-                        <p class="gallery-image-text">
-                            <?php echo ( get_post_meta( get_the_ID(), '_description', true ) ); ?>
-                        </p>
+                        <div class="gallery-image-text">
+                            <p><?php the_title() ?></p>
+                            <i class="fas fa-play"></i>
+                        
                     </figure>
                 </div>
         <?php endforeach; wp_reset_postdata(); ?>
