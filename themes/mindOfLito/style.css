@@ -212,7 +212,20 @@ header {
 .gallery {
   background-color: black;
   color: white;
-  padding-top: 25px; }
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .gallery h1 {
     font-weight: 600;
     font-size: 5rem;
@@ -239,8 +252,8 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 900px;
-  margin: 0 auto; }
+  height: 80px;
+  width: 900px; }
 
 .video-description-text {
   display: -webkit-box;
@@ -253,7 +266,9 @@ header {
     width: 100px;
     border-radius: 50px; }
   .video-description-text h3 {
-    padding: 0px 50px; }
+    padding: 0px 50px;
+    height: 80px;
+    width: 500px; }
 
 .gallery-posts {
   margin-top: 25px;
@@ -264,8 +279,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 1000px; }
+      flex-wrap: wrap; }
 
 .card-container {
   display: -webkit-box;

@@ -2,6 +2,10 @@
   background-color: black;
   color: white;
   padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   h1 {
     font-weight: 600;
     font-size: 5rem;
@@ -21,8 +25,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 80px;
   width: 900px;
-  margin: 0 auto;
 }
 
 .video-description-text {
@@ -36,6 +40,8 @@
 
   h3 {
     padding: 0px 50px;
+    height: 80px;
+    width: 500px;
   }
 }
 
@@ -44,7 +50,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 1000px;
 }
 
 .card-container {
