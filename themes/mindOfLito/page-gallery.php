@@ -12,6 +12,7 @@
             fermentum posuere urna nec tincidunt. Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Turpis 
             tincidunt</h3>
         </div>
+    </div>
     <div class="gallery-posts">
         <?php
             $args = array( 
@@ -24,13 +25,13 @@
         ?>
         <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>    
             <?php $videos = rwmb_meta( '_video-link' );
-                    foreach ( $videos as $video ); ?>      
+                    foreach ( $videos as $video ); ?>   
                 <div 
                 class="card-container video-link" 
                 data-link="<?php echo $video['src']; ?>" 
                 title="<?php the_title(); ?>"
                 description="<?php echo ( get_post_meta( get_the_ID(), '_description', true ) ); ?>"
-                thumbnail-link="<?php the_post_thumbnail(); ?>
+                thumbnail-link="<?php the_post_thumbnail_url()  ?>">
                     <figure class="gallery-image">
                         <?php the_post_thumbnail(); ?>
                         <p class="gallery-image-text">
