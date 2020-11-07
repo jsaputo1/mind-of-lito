@@ -37,7 +37,6 @@
                         <div class="gallery-image-text">
                             <p><?php the_title() ?></p>
                             <i class="fas fa-play"></i>
-                        
                     </figure>
                 </div>
         <?php endforeach; wp_reset_postdata(); ?>
