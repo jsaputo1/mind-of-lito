@@ -17,9 +17,7 @@
         <?php
             $args = array( 
                 'post_type' => 'post', 
-                'cat' => '2', 
                 'order' => 'ASC',
-                'numberposts' => 9
                 );
             $product_posts = get_posts( $args ); 
         ?>
@@ -37,8 +35,9 @@
                         <div class="gallery-image-text">
                             <p><?php the_title() ?></p>
                             <i class="fas fa-play"></i>
+                        </div>
                     </figure>
-                </div>
+                    </div>
         <?php endforeach; wp_reset_postdata(); ?>
     </div>
 </section>

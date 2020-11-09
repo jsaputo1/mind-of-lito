@@ -277,11 +277,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  max-width: 1000px; }
 
 .card-container {
   display: -webkit-box;
@@ -298,7 +296,8 @@ header {
   cursor: pointer; }
 
 .gallery-image {
-  position: relative; }
+  position: relative;
+  margin-bottom: 10px; }
   .gallery-image img {
     height: 150px;
     width: 225px;

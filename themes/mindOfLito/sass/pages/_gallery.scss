@@ -50,8 +50,9 @@
 .gallery-posts {
   margin-top: 25px;
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   flex-wrap: wrap;
+  max-width: 1000px;
 }
 
 .card-container {
@@ -70,6 +71,7 @@
     width: 225px;
     object-fit: cover;
   }
+  margin-bottom: 10px;
 }
 
 .gallery-image-text {
