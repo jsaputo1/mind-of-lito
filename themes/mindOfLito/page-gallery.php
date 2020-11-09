@@ -17,7 +17,6 @@
         <?php
             $args = array( 
                 'post_type' => 'post', 
-                'cat' => '2', 
                 'order' => 'ASC',
                 'numberposts' => 9
                 );
