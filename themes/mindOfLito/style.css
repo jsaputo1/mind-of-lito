@@ -255,6 +255,8 @@ header {
   height: 80px;
   width: 900px;
   margin: 30px 0px; }
+  .video-description h2 {
+    margin-bottom: 15px; }
 
 .video-description-text {
   display: -webkit-box;
