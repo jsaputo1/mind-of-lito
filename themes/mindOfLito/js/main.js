@@ -1,6 +1,8 @@
 jQuery(document).ready(function ($) {
 
-  console.log('working');
+  // console.log('working');
+
+  $(".owl-carousel").owlCarousel();
 
   $(".gallery-image-text").hide();
 
@@ -31,8 +33,7 @@ jQuery(document).ready(function ($) {
     $('#video-description').html(newDescription);
     $('#video-description-thumbnail').attr('src', newThumbnail);
 
-
   });
 
-
 });
+
