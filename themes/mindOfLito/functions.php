@@ -2,12 +2,15 @@
 
 //Adds script and stylesheets
 function mindOfLito_files() {
-    wp_enqueue_style('mindOfLito_styles', get_stylesheet_uri('/build/css/style.min.css'), NULL, microtime());
+
+    wp_enqueue_style('owl_styles', get_template_directory_uri() . ('/owl/owl.theme.default.css'), NULL, microtime());
+    wp_enqueue_style('owl_theme', get_template_directory_uri() . ('/owl/owl.carousel.css'), NULL, microtime());
+    wp_enqueue_style('sass', get_template_directory_uri() . ('/build/css/style.min.css'), NULL, microtime());
     wp_enqueue_style('fonts', "https://fonts.googleapis.com/css?family=Lato&display=swap");
     wp_enqueue_script('load-fa', 'https://kit.fontawesome.com/e785bdc78c.js');
     wp_enqueue_script('jquery');
     wp_enqueue_script('main-js', get_template_directory_uri() . '/js/main.js');  
-
+    wp_enqueue_script('owl-js', get_template_directory_uri() . '/owl/owl.carousel.js');  
     // wp_enqueue_script('main-js', get_template_directory_uri() . '/build/js/main.min.js');  
 }
 
