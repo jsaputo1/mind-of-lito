@@ -7,7 +7,7 @@
     <div class="video-description">
         <h2 id="big-video-title"><?php the_field('gallery_big_video_title'); ?></h2>
         <div class="video-description-text">
-            <img src="http://localhost:8888/mindOfLito/wp-content/uploads/2020/09/gettyimages-492684094-1536x1024.jpg" id="video-description-thumbnail">
+            <img src="<?php the_field('big_video_thumbnail'); ?>" id="video-description-thumbnail">
             <h3 id="video-description"> <?php the_field('gallery_big_video_description'); ?></h3>
         </div>
     </div>
