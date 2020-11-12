@@ -15,12 +15,13 @@ body {
   margin: 0 auto;
 }
 
+//Keeps footer at the bottom of the page
+
 body {
-  height: 100vh;
+  height: 97vh;
   margin: 0;
 }
 
-//Keeps footer at the bottom of the page
 body {
   display: flex;
   flex-direction: column;
