@@ -1,6 +1,6 @@
 .gallery {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   padding-top: 25px;
   display: flex;
   flex-direction: column;
@@ -36,10 +36,11 @@
 .video-description-text {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   img {
-    width: 100px;
-    border-radius: 50px;
+    width: 120px;
+    border-radius: 40px;
   }
 
   h3 {

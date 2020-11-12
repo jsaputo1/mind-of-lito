@@ -95,6 +95,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   max-width: 1200px;
+  height: 75px;
   margin: 0 auto; }
 
 #footer {
@@ -277,8 +278,8 @@ header {
   cursor: pointer; }
 
 .gallery {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   padding-top: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -331,10 +332,13 @@ header {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .video-description-text img {
-    width: 100px;
-    border-radius: 50px; }
+    width: 120px;
+    border-radius: 40px; }
   .video-description-text h3 {
     padding: 0px 50px;
     height: 80px;
