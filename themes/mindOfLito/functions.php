@@ -12,6 +12,7 @@ function mindOfLito_files() {
     wp_enqueue_script('main-js', get_template_directory_uri() . '/js/main.js');  
     wp_enqueue_script('owl-js', get_template_directory_uri() . '/owl/owl.carousel.js');  
     // wp_enqueue_script('main-js', get_template_directory_uri() . '/build/js/main.min.js');  
+    wp_enqueue_style( 'animate_css', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css' );
 }
 
 add_action('wp_enqueue_scripts', 'mindOfLito_files');
