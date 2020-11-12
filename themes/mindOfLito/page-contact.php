@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
 <section class="contact">
-  <div class="flex-container-column">
-    <h3><?php the_content(); ?></h3>
-  </div>
+   <h1 class="title"><?php the_field('gallery_big_video_description'); ?></h1>
+   <form class="contact-form row">
+      <?php the_content(); ?>
+   </form>
 </section>
-
     
 <?php get_footer();?>
