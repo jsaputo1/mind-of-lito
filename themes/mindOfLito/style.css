@@ -195,19 +195,77 @@ header {
           -ms-flex-pack: end;
               justify-content: flex-end; }
 
-.contact textarea {
-  font-family: inherit;
-  font-size: 2rem; }
+.contact {
+  max-width: 650px;
+  margin: 0 auto; }
 
-.name-email {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  .name-email label {
-    width: 50%; }
+.align-center {
+  text-align: center; }
 
-.contact-field {
-  border: none; }
+.row {
+  margin: -20px 0; }
+  .row:after {
+    content: '';
+    display: table;
+    clear: both; }
+  .row .col {
+    padding: 0 20px;
+    float: left;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    .row .col.x-50 {
+      width: 50%; }
+    .row .col.x-100 {
+      width: 100%; }
+
+.contact .title {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 36px;
+  line-height: 48px;
+  padding-bottom: 48px; }
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0; }
+
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #000;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400; }
+
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-family: Lusitana, serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #888;
+  cursor: text;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out; }
+
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer; }
 
 .gallery {
   background-color: black;
