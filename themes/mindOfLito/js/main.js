@@ -27,7 +27,7 @@ jQuery(document).ready(function ($) {
 
   $(".card-container").mouseenter(function () {
     $(this).find(".gallery-image-text").show();
-    $(this).find(".gallery-image img").css("opacity", "0.3");
+    $(this).find(".gallery-image img").css("opacity", "0.7");
   });
 
   $(".card-container").mouseleave(function () {
